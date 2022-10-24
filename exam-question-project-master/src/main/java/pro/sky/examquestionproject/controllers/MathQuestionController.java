@@ -15,6 +15,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/exam/math")
 public class MathQuestionController {
+
     private final QuestionService questionService;
 
     @Autowired
