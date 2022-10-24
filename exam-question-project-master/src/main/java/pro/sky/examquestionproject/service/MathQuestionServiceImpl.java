@@ -11,6 +11,7 @@ import java.util.*;
 @Service
 public class MathQuestionServiceImpl implements QuestionService {
 
+
     private final Random random = new Random();
     private final QuestionRepository mathQuestionRepository;
 

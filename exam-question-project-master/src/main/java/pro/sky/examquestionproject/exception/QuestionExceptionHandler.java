@@ -13,6 +13,7 @@ import java.util.Map;
 @ControllerAdvice
 public class QuestionExceptionHandler {
 
+
     @ExceptionHandler
     public ResponseEntity<Map<String, String>> handleException400(CountQuestionsException ex, HttpServletRequest request) {
         HttpStatus status = HttpStatus.BAD_REQUEST;
